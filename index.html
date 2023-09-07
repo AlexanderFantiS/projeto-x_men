@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto X-MEN</title>
+    <link rel="stylesheet" href="src/css/responsivo.css" />
+    <link rel="stylesheet" href="src/css/estilos.css" />
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400&family=Tajawal:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="cabecalho">
+      <img class="logo" src="src/img/logo.png" alt="Logo x-men" />
+    </header>
+
+    <main class="selecao-de-personagens">
+      <section class="personagens">
+        <h1 class="titulo">Selecione um Personagem</h1>
+        <ul class="lista-de-personagens">
+          <li
+            class="Personagem selecionado"
+            id="ciclope"
+            data-name="ciclope"
+            data-description="Seu poder é emitir raios ópticos de energia com força de concussão , mas já foram escritos como cortantes como laser."
+          >
+            <img src="src/img/ciclope.jpg" alt="Personagem ciclope" />
+          </li>
+          <li
+            class="Personagem"
+            id="jean-grey"
+            data-name="jean Grey"
+            data-description="Jean Grey é uma mutante nível Ômega. Desde seu nascimento, ela é uma poderosa telepata, telecinética e psiônica, estando entre as mais fortes mutantes do universo Marvel."
+          >
+            <img src="src/img/jean-grey1.jpg" alt="Personagem jean-grey" />
+          </li>
+          <li
+            class="Personagem"
+            id="lince-negra"
+            data-name="lince Negra"
+            data-description="uma mutante muito inteligente , tendo como poder principal atravesar qualquer coisa , paredes ou portas "
+          >
+            <img src="src/img/lince-negra.jpg" alt="Personagem lince-negra" />
+          </li>
+          <li
+            class="Personagem"
+            id="vampira"
+            data-name="Vampira"
+            data-description="e seu poder mutante é a habilidade de absorver a vitalidade, memórias, habilidades e poderes de outros seres vivos através do contato com a pele."
+          >
+            <img src="src/img/vampira.jpg" alt="Personagem vampira" />
+          </li>
+          <li
+            class="Personagem"
+            id="wolverine"
+            data-name="Wolverine"
+            data-description="sentidos muito apurados , seu esqueleto é feito de Adamantil e possui como arma principal suas garras que saiem de suas mãos"
+          >
+            <img src="src/img/wolverine.jpg" alt="Personagem wolverine" />
+          </li>
+          <li
+            class="Personagem"
+            id="magneto"
+            data-name="Magneto"
+            data-description=" é um mutante com a habilidade de manipular campos magnéticos à sua vontade e controlar objetos metálicos."
+          >
+            <img src="src/img/magneto.jpg" alt="Personagem magneto" />
+          </li>
+          <li
+            class="Personagem"
+            id="tempestade"
+            data-name="Tempestade"
+            data-description="Tempestade é descendente de uma antiga linha de feiticeiras africanas. Todas têm cabelos brancos, olhos azuis e potencial para usar magia.Seu poder é controlar os trovoes e ventos"
+          >
+            <img src="src/img/tempestade.jpg" alt="Personagem tempestade" />
+          </li>
+          <li
+            class="Personagem"
+            id="xavier"
+            data-name="Xavier"
+            data-description="Fundador e líder do grupo conhecido como X-Men, Charles Xavier é dono de uma mente brilhante, sua principal arma e fonte de seus superpoderes."
+          >
+            <img src="src/img/xavier.jpg" alt="Personagem xavier" />
+          </li>
+        </ul>
+      </section>
+      <section class="personagem-selecionado">
+        <img
+          class="personagem-grande"
+          src="src/img/ciclope.jpg"
+          alt="personagem selecionado"
+        />
+        <div class="informacoes-personagem">
+          <h2 class="nome-personagem" id="nome-personagem">Ciclope</h2>
+          <p class="descricao-personagem" id="descricao-personagem">
+            Seu poder é emitir raios ópticos de energia com força de concussão ,
+            mas já foram escritos como cortantes como laser.
+          </p>
+        </div>
+      </section>
+    </main>
+    <script src="src/index.js"></script>
+  </body>
+</html>
